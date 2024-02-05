@@ -1,0 +1,130 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/migam/.m2/repository/com/google/guava/guava/24.1-jre/guava-24.1-jre.jar;C:/Users/migam/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar;C:/Users/migam/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar;C:/Users/migam/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar;C:/Users/migam/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar;C:/Users/migam/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar;C:/Users/migam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar;C:/Users/migam/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/migam/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar;C:/Users/migam/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar;C:/Users/migam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar;C:/Users/migam/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar;C:/Users/migam/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar;C:/Users/migam/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar;C:/Users/migam/.m2/repository/junit/junit/4.12/junit-4.12.jar;C:/Users/migam/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/migam/.m2/repository/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.jar;C:/Users/migam/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar;C:/Users/migam/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.3/byte-buddy-agent-1.8.3.jar;C:/Users/migam/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar;C:/Users/migam/.m2/repository/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1.jar;C:/Users/migam/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar;C:/Users/migam/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar;C:/Users/migam/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar;C:/Users/migam/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar;C:/Users/migam/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar;C:/Users/migam/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java;C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023 <a href="http://www.tudelft.nl">Delft University of Technology</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'jpacman-framework 8.1.1 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'jpacman-framework 8.1.1 API'
+nl.tudelft.jpacman.board
+nl.tudelft.jpacman.game
+nl.tudelft.jpacman
+nl.tudelft.jpacman.level
+nl.tudelft.jpacman.npc.ghost
+nl.tudelft.jpacman.npc
+nl.tudelft.jpacman.sprite
+nl.tudelft.jpacman.ui
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/board/Board.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/board/BoardFactory.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/board/Direction.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/board/Square.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/board/Unit.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/game/Game.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/game/GameFactory.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/game/SinglePlayerGame.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/Launcher.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/CollisionInteractionMap.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/CollisionMap.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/DefaultPlayerInteractionMap.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/Level.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/LevelFactory.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/MapParser.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/Pellet.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/Player.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/PlayerCollisions.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/level/PlayerFactory.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/ghost/Blinky.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/ghost/Clyde.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/ghost/GhostColor.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/ghost/GhostFactory.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/ghost/Inky.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/ghost/Navigation.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/ghost/package-info.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/ghost/Pinky.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/npc/Ghost.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/PacmanConfigurationException.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/sprite/AnimatedSprite.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/sprite/EmptySprite.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/sprite/ImageSprite.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/sprite/PacManSprites.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/sprite/Sprite.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/sprite/SpriteStore.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/ui/Action.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/ui/BoardPanel.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/ui/ButtonPanel.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/ui/PacKeyListener.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/ui/PacManUI.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/ui/PacManUiBuilder.java'
+'C:/Users/migam/Downloads/recitation-1-jpacman/jpacman/src/main/java/nl/tudelft/jpacman/ui/ScorePanel.java'
+C:\Users\migam\.m2\repository\com\google\guava\guava\24.1-jre\guava-24.1-jre.jar = 1696418733528
+C:\Users\migam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar = 1696418733579
+C:\Users\migam\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar = 1696418733663
+C:\Users\migam\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar = 1696418733613
+C:\Users\migam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar = 1696418733642
+C:\Users\migam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar = 1696418733622
+C:\Users\migam\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar = 1696418733830
+C:\Users\migam\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar = 1696418733641
+C:\Users\migam\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar = 1696418733682
+C:\Users\migam\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1696418733662
+C:\Users\migam\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar = 1696418733701
+C:\Users\migam\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar = 1696418733707
+C:\Users\migam\.m2\repository\org\junit\vintage\junit-vintage-engine\5.9.1\junit-vintage-engine-5.9.1.jar = 1696418733696
+C:\Users\migam\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar = 1696418733978
+C:\Users\migam\.m2\repository\junit\junit\4.12\junit-4.12.jar = 1696418733732
+C:\Users\migam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1696418733730
+C:\Users\migam\.m2\repository\org\mockito\mockito-core\2.18.0\mockito-core-2.18.0.jar = 1696418733792
+C:\Users\migam\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar = 1696418734027
+C:\Users\migam\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.3\byte-buddy-agent-1.8.3.jar = 1696418733772
+C:\Users\migam\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar = 1696418733809
+C:\Users\migam\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar = 1696418734208
+C:\Users\migam\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar = 1696418733895
+C:\Users\migam\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar = 1696418734160
+C:\Users\migam\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar = 1696418733950
+C:\Users\migam\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar = 1696418734075
+C:\Users\migam\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar = 1696418734453
+C:\Users\migam\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar = 1696418734048
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\src\main\java = 1696417164874
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\generated-sources\annotations = 1696418760834
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\allclasses-index.html = 1696422006672
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\allpackages-index.html = 1696422006672
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\constant-values.html = 1696422006289
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\copy.svg = 1696422006745
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\element-list = 1696422006140
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\help-doc.html = 1696422006731
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\index-all.html = 1696422006715
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\index.html = 1696422006640
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\jquery-ui.overrides.css = 1696422006769
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\member-search-index.js = 1696422006684
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\module-search-index.js = 1696422006672
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\overview-summary.html = 1696422006723
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\overview-tree.html = 1696422006634
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\package-search-index.js = 1696422006680
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\script.js = 1696422006743
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\search-page.js = 1696422006753
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\search.html = 1696422006721
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\search.js = 1696422006751
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\serialized-form.html = 1696422006303
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\stylesheet.css = 1696422006738
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\tag-search-index.js = 1696422006684
+C:\Users\migam\Downloads\recitation-1-jpacman\jpacman\target\site\apidocs\type-search-index.js = 1696422006684
