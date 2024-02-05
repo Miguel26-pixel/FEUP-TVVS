@@ -1,0 +1,91 @@
+Miguel Amorim ---------- T5
+
+1.1 --------
+
+In order to apply Modified Condition/Decision Coverage (MC/DC) to all decisions within the function, we must first identify the decisions and conditions within the code. Then, we need to devise test cases that adhere to the MC/DC criterion. According to the definition of MC/DC, as provided in the source https://en.wikipedia.org/wiki/Modified_condition/decision_coverage, we must ensure the following:
+
+Invoke each entry and exit point.
+Explore every possible outcome for each decision.
+Examine every possible outcome for each condition within a decision.
+Demonstrate that each condition within a decision independently influences the decision's outcome.
+Within the given function, there exists only one decision, which is the return statement:
+
+
+return x >= 0 && x < getWidth() && y >= 0 && y < getHeight();
+
+This decision comprises four conditions:
+
+x >= 0
+x < getWidth()
+y >= 0
+y < getHeight
+
+Each condition represents a Boolean expression that can yield either a true or false outcome. Similarly, the decision itself is a Boolean expression that can result in either true or false. The decision's final outcome hinges on the logical AND operation of these four conditions.
+
+To demonstrate the independent impact of each condition, we should modify only one condition at a time while maintaining the other conditions constant. This necessitates finding a pair of test cases for each condition, wherein the condition switches from true to false or vice versa, and the decision's outcome adjusts accordingly, with the other conditions unaltered.
+
+One conceivable set of test cases that complies with the MC/DC criterion for this decision is illustrated in the table below. The table also presents the expected outcomes for the conditions and the decision in each test case.
+
+| Test Case | x | y | x >= 0 | x < getWidth() | y >= 0 | y < getHeight() | Decision |
+|-----------|---|---|--------|----------------|--------|-----------------|----------|
+| TC1       | 0 | 0 | true   | true           | true   | true            | true     |
+| TC2       | -1| 0 | false  | true           | true   | true            | false    |
+| TC3       | 10| 0 | true   | false          | true   | true            | false    |
+| TC4       | 0 |-1 | true   | true           | false  | true            | false    |
+| TC5       | 0 | 10| true   | true           | true   | false           | false    |
+
+As evident, each condition corresponds to a pair of test cases that elucidate its isolated impact on the decision's outcome. For instance, concerning the condition x >= 0, TC1 and TC2 share identical values for the other conditions, but differ in x >= 0, resulting in disparate decision outcomes. Likewise, for the condition y < getHeight(), TC1 and TC5 exhibit identical values for the other conditions but differ in y < getHeight(), yielding distinct decision outcomes. This collection of test cases encompasses all possible decision outcomes (true and false) and ensures the invocation of the function's entry and exit points.
+
+
+
+1.2 ---------
+
+To apply Modified Condition/Decision Coverage (MC/DC) to all decisions in the function, we need to identify the decisions and the conditions in the code, and then design test cases that satisfy the MC/DC criterion. According to the definition of MC/DC , we need to ensure that:
+
+•  Each entry and exit point is invoked
+
+•  Each decision takes every possible outcome
+
+•  Each condition in a decision takes every possible outcome
+
+•  Each condition in a decision is shown to independently affect the outcome of the decision
+
+In the given function, there are two decisions, which are:
+
+if (isInProgress()) {
+return;
+}
+
+and
+
+if (getLevel().isAnyPlayerAlive() && getLevel().remainingPellets() > 0) {
+inProgress = true;
+getLevel().addObserver(this);
+getLevel().start();
+}
+
+The first decision has one condition, which is:
+
+•  isInProgress()
+
+The second decision has two conditions, which are:
+
+•  getLevel().isAnyPlayerAlive()
+
+•  getLevel().remainingPellets() > 0
+
+Each condition is a Boolean expression that can take either true or false as an outcome. The decision outcomes also depend on the logical AND operation of the conditions.
+
+To show the independent effect of each condition, we need to vary only one condition at a time, while keeping the other conditions fixed. This means that we need to find a pair of test cases for each condition, such that the condition changes from true to false or vice versa, and the decision outcome also changes accordingly, while the other conditions remain unchanged.
+
+One possible set of test cases that satisfies the MC/DC criterion for these decisions is shown in the table below. The table also shows the expected outcomes of the conditions and the decisions for each test case.
+
+| Test Case | isInProgress() | getLevel().isAnyPlayerAlive() | getLevel().remainingPellets() > 0 | Decision 1 | Decision 2 |
+|-----------|----------------|-------------------------------|-----------------------------------|------------|------------|
+| TC1       | false          | true                          | true                              | false      | true       |
+| TC2       | true           | true                          | true                              | true       | N/A        |
+| TC3       | false          | false                         | true                              | false      | false      |
+| TC4       | false          | true                          | false                             | false      | false      |
+
+As you can see, each condition has a pair of test cases that shows its independent effect on the decision outcome. For example, for the condition isInProgress(), TC1 and TC2 have the same values for the other conditions, but different values for isInProgress() and the first decision. Similarly, for the condition getLevel().remainingPellets() > 0, TC1 and TC4 have the same values for the other conditions, but different values for getLevel().remainingPellets() > 0 and the second decision. This set of test cases covers all possible outcomes of the decisions (true and false), and also invokes the entry and exit points of the function.
+~

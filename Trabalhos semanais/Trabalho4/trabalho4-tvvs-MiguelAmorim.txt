@@ -1,0 +1,41 @@
+Miguel Amorim ------ Trabalho 4 -------
+
+Control-flow
+
+(1) - initial state
+(2) - instruction_0
+(3) - instruction_1
+(4) - instruction_2
+(5) - condiction_0
+(6) - instruction_3
+(7) - instruction_4
+(8) - condiction_1
+(9) - instruction_5
+(10) - condiction_2
+(11) - condiction_3
+(12) - instruction_6
+(13) - instruction_7
+(14) - instruction_8
+(15) - end state
+
+
+cyclomatic complexity ----
+
+V(G) = E - N + 2P
+	= 17 - 14 + 2*1
+	= 5
+
+
+independent paths -----
+
+(1)-(2)-(3)-(4)-(5)-(14)-(15)
+(1)-(2)-(3)-(4)-(5)-(6)-(7)-(8)-(9)-(10)-(11)-(12)-(10)-(13)-(5)-(14)-(15)
+(1)-(2)-(3)-(4)-(5)-(6)-(7)-(8)-(9)-(10)-(13)-(5)-(14)-(15)
+(1)-(2)-(3)-(4)-(5)-(6)-(7)-(8)-(10)-(11)-(10)-(13)-(5)-(14)-(15)
+(1)-(2)-(3)-(4)-(5)-(6)-(7)-(8)-(10)-(11)-(12)-(10)-(13)-(5)-(14)-(15)
+
+
+
+
+
+

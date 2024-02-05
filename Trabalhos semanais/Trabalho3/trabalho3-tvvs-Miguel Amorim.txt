@@ -1,0 +1,64 @@
+State machine ------- Miguel Amorim
+
+
+States:
+
+- OFF
+- IDLE
+- COOLING
+- HEATING
+
+EVENTS:
+
+- TURN ON
+- TURN OFF
+- TOO HOT
+- TOO COOL
+- TEMPERATURE REACHED
+
+TRANSITIONS:
+
+- OFF to IDLE (event: TURN ON)
+- IDLE to OF (event: TURN OFF)
+- IDLE to COOLING (event: TOO HOT)
+- IDLE to HEATING (event: TOO COLD)
+- HEATING to IDLE (event: TEMPERATURE REACHED)
+- COOLING to IDLE (event: TEMPERATURE REACHED)
+
+
+
+Trasition Tree -----------
+
+Paths (number of paths: 3):
+
+- OFF_0 to IDLE_0 to OFF_1
+- OFF_0 to IDLE_0 to COOLING to IDLE_1
+- OFF_0 to IDLE_0 to HEATING to IDLE_1
+
+
+
+Transition Table ------------
+
+Normal Paths (number of normal paths: 3):
+
+- OFF_0 to IDLE_0 to OFF_1
+- OFF_0 to IDLE_0 to COOLING to IDLE_1
+- OFF_0 to IDLE_0 to HEATING to IDLE_1
+
+Sneaky Paths (number of sneaky paths: 14):
+- STATE + EVENT = EMPTY STATE
+
+- OFF + TURN OFF
+- OFF + TOO COOL
+- OFF + TOO HOT
+- OFF + TEMPERATURE REACHED
+- IDLE + TURN ON
+- IDLE + TEMPERATURE REACHED
+- COOLING + TURN ON
+- COOLING + TURN OFF
+- COOLING + TOO COOL
+- COOLING + TOO HOT
+- HEATING + TURN ON
+- HEATING + TURN OFF
+- HEATING + TOO COOL
+- HEATING + TOO HOT

@@ -1,0 +1,72 @@
+MiguelAmorim-tvvs-trabalho6------
+
+function1------
+
+
+The def-use pairs identified for the variable path are:
+
+pair id    def    use       path
+1          13     15        <13,14,15>
+2          13     (14,T)    <13,14,15>
+3          13     (14,F)    <13,14,16>
+
+All-defs: 
+
+variable    nearest    target    path
+pair ids    2          1         1
+
+All-c-uses:
+ 
+variable    nearest    target    path
+pair ids    2          1         1
+
+All-p-uses: 
+
+variable    nearest    target    path
+pair ids    3,4        -         2,3
+
+All-uses: 
+
+variable    nearest    target    path
+pair ids    2,3,4      1         1,2,3
+
+
+function2----
+
+
+The def-use pairs identified for the variable path are:
+
+pair id    def    use       path
+1          (1)    (8)       <1,2,3,4,5,6,7,8>
+2          (2)    (9)       <2,3,4,5,6,7,8,9>
+3          (6)    (12,F)    <6,12>
+4          (6)    (9,T)     <6,7,8,9>
+5          (6)    (10,T)    <6,7,8,9,10>
+6          (7)    (8,T)     <7,8>
+7          (7)    (10,T)    <7,8,9,10>
+8          (8)    (11)      <8,9,10,11>
+9          (9)    (11)      <8,9,10,11>
+10         (6)    (6)       <6>
+11         (7)    (7)       <7>
+
+
+All-defs: 
+
+variable    cellW    cellH    cellX	cellY	  x	y
+pair ids    1        2        8		9	  10	11
+
+All-c-uses:
+ 
+variable    cellW    cellH    cellX	cellY	  x	y
+pair ids    1        2        -		-	  4,5	6,7
+
+All-p-uses: 
+
+variable    cellW    cellH    cellX	cellY	  x	y
+pair ids    -        -        -		-	  10	11
+
+All-uses: 
+
+variable    cellW    cellH    cellX	cellY	  x	    y
+pair ids    1        2        -		-	  4,5,10    6,7,11
+

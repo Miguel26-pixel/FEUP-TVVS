@@ -1,0 +1,17 @@
+#Wed Oct 04 16:07:37 WEST 2023
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\PacmanConfigurationException.java=1696417164937
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\board\\BoardFactory.java=1696417165369
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\game\\GameFactory.java=1696417165631
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\level\\CollisionInteractionMap.java=1696421335009
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\level\\CollisionMap.java=1696417166129
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\level\\PlayerFactory.java=1696417166176
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\npc\\ghost\\GhostColor.java=1696417166677
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\npc\\ghost\\GhostFactory.java=1696417166720
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\npc\\ghost\\package-info.java=1696417166795
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\sprite\\EmptySprite.java=1696417165779
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\sprite\\ImageSprite.java=1696417165951
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\sprite\\Sprite.java=1696417165908
+C\:\\Users\\migam\\Downloads\\recitation-1-jpacman\\jpacman\\src\\main\\java\\nl\\tudelft\\jpacman\\ui\\Action.java=1696417165319
+configuration*?=D29AA54E7C8D2148555380F8218409F7A193BF46
+module-resource*?\:checkstyle-suppressions.xml=CD3A11C29F0F30E94E78D5888E697137B53990C2
+module-resource*?\:checkstyle-xpath-suppressions.xml=FED9088930521831D0796A450C8D849BE693E7F0
